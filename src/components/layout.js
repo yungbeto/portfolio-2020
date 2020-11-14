@@ -33,14 +33,6 @@ const TemplateWrapper = ({ children }) => {
             }
             copyright
           }
-          allDatoCmsSocialProfile(sort: { fields: [position], order: ASC }) {
-            edges {
-              node {
-                profileType
-                url
-              }
-            }
-          }
         }
       `}
       render={data => (
